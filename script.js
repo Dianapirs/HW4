@@ -35,3 +35,12 @@ for(d = 0; d < arrTF.length; d++) {
     resultT = resultT + arrTF[d];
 }
 console.log('Сумма чисел данного массива равна ' + resultT);
+
+//Forth
+console.log('Forth');
+let arrForth = ['10', '20', '30', '50', '235', '3000'];
+for(e = 0; e < arrForth.length; e++) {
+    if(arrForth[e][0] === '1' || arrForth[e][0] === '2' || arrForth[e][0] === '5') {
+        console.log(arrForth[e]);
+    }
+}
