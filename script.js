@@ -79,6 +79,14 @@ arrSeventh.sort(function(a, b){
 });
 console.log(arrSeventh);
 
+//Eighth
+console.log('Eighth');
+let arrEighth = [12, false, 'Текст', 4, 2, -5, 0];
+arrEighth.reverse();
+console.log(arrEighth);
+
+
+
 
 
 
