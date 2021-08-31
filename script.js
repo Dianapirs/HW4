@@ -46,7 +46,7 @@ for(e = 0; e < arrForth.length; e++) {
 }
 
 //Fifth
-console.log('Fifth');
+document.write('Fifth', '<br/>');
 let arrFifth = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ', 'ВС'];
 for(let e = 0; e < arrFifth.length; e++) {
     if (arrFifth[e] === 'СБ' || arrFifth[e] === 'ВС') {
@@ -55,5 +55,13 @@ for(let e = 0; e < arrFifth.length; e++) {
         document.write(arrFifth[e] + '\n');
     }
 }
+
+//Sixth
+console.log('Sixth');
+let arrSixth = ['Rita', 'Sasha', 'Anna', 'Valera'];
+arrSixth.push(prompt('ВВедите элемент массива'));
+console.log(arrSixth);
+console.log(arrSixth[arrSixth.length - 1]);
+
 
 
