@@ -63,5 +63,22 @@ arrSixth.push(prompt('ВВедите элемент массива'));
 console.log(arrSixth);
 console.log(arrSixth[arrSixth.length - 1]);
 
+//Seventh
+console.log('Seventh');
+let arrSeventh = [];
+while (true) {
+    let f = prompt('Введите число');
+    if (f === '' || isNaN(f)) break
+    else {
+        arrSeventh.push(f);
+    }
+}
+console.log(arrSeventh);
+arrSeventh.sort(function(a, b){
+    return a - b;
+});
+console.log(arrSeventh);
+
+
 
 
