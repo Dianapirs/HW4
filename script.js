@@ -44,3 +44,16 @@ for(e = 0; e < arrForth.length; e++) {
         console.log(arrForth[e]);
     }
 }
+
+//Fifth
+console.log('Fifth');
+let arrFifth = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ', 'ВС'];
+for(let e = 0; e < arrFifth.length; e++) {
+    if (arrFifth[e] === 'СБ' || arrFifth[e] === 'ВС') {
+        document.write(arrFifth[e].bold() + '\n');
+    } else {
+        document.write(arrFifth[e] + '\n');
+    }
+}
+
+
