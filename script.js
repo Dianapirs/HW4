@@ -48,7 +48,7 @@ for(e = 0; e < arrForth.length; e++) {
 //Fifth
 document.write('Fifth', '<br/>');
 let arrFifth = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ', 'ВС'];
-for(let e = 0; e < arrFifth.length; e++) {
+for(let e = 0; e < arrFifth.length; e++){
     if (arrFifth[e] === 'СБ' || arrFifth[e] === 'ВС') {
         document.write(arrFifth[e].bold() + '\n');
     } else {
